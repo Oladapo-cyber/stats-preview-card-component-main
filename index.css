@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: fit-content;
+  border: 5px solid black;
+  /* 
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* To position elements anywhere along the main axis, we use the justify content property. */
+
+.container {
+  margin: 0;
+  color: whitesmoke;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  justify-content: center;
+  /* This property make it not appear how I want it to. */
+  /*   height: 50vh; */
+  gap: 30px;
+  align-items: center;
+}
+
+.together {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 0;
+}
+
+.boldstat {
+  font-weight: 600;
+  display: flex;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.img-container {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  height: 300px;
+  /* Support code, it solved the issue of an image that crosses the margin of the background image. */
+  margin-bottom: -4px;
+  /* border: 2px solid red; */
+}
+
+.mainp {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stath {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  align-items: flex-end;
+}
+
+.smallfont {
+  letter-spacing: 1px;
+  font-size: x-small;
+} /* 
+
+.first {
+  display: flex;
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Below is the styling for a flexbox page,irrelevant in this project. */
+.flex-container {
+  margin: 5px solid black;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.boxes {
+  font-weight: bolder;
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
